@@ -12,6 +12,10 @@ module.exports = {
       'gray-dark': '#39393A',
       'gray-light': '#E6E6E6',
     },
+    // fontFamily: {
+    //   sans: ['"Montserrat"', 'sans-serif'],
+    //   barlowCondensed: ['"Barlow Condensed"', 'sans-serif'],
+    // },
     extend: {},
   },
   plugins: [],
