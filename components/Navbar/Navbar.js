@@ -5,12 +5,12 @@ import Image from "next/image";
 import Logo from "../../public/static/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faSearch,
-    faAmbulance,
-    faAnchor,
-} from "@fortawesome/free-solid-svg-icons";
+            faLinkedinIn,
+            faGithub,
+            faTwitter
+       } from "@fortawesome/free-brands-svg-icons";
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <nav role="navigation" aria-label="Main navigation" className="border-gray-200 px-2 sm:px-4 py-3 rounded dark:bg-gray-900 h-16">
             <div className="container flex flex-wrap items-center justify-between mx-auto">
@@ -43,6 +43,27 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link href="#" className="block py-2 pl-3 pr-4 text-base font-medium hover:text-purple hover:font-semibold text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</Link>
+                        </li>
+                        { /* Social Icons */}
+                        <li>
+                            <Link href="https://github.com/MikeLegemah5799" target="_blank" className="py-0.5 pl-3 pr-4">
+                                <FontAwesomeIcon
+                                    icon={faGithub}
+                                    style={{ fontSize: 18, color: "#000" }}
+                                />
+                            </Link>
+                            <Link href="https://www.linkedin.com/in/michaellegemah/" target="_blank" className="py-0.5 pl-3 pr-4">
+                                <FontAwesomeIcon
+                                    icon={faLinkedinIn}
+                                    style={{ fontSize: 18, color: "#000" }}
+                                />
+                            </Link>
+                            <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 pl-3 pr-4">
+                                <FontAwesomeIcon
+                                    icon={faTwitter}
+                                    style={{ fontSize: 18, color: "#000" }}
+                                />
+                            </Link>
                         </li>
                     </ul>
                 </div>
