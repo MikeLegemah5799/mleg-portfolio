@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import Navbar from '../components/Navbar/Navbar';
+import MainNav from '../components/MainNav/MainNav';
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Navbar />
+      <MainNav />
     </div>
   )
 }
