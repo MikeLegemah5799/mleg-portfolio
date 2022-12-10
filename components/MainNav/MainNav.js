@@ -76,7 +76,7 @@ const MainNav = () => {
                         </Link>
                     </li>
                     {/* Soocial Icons */}
-                    <li className="py-3 inline-flex">
+                    <li className="p-3 inline-flex">
                         <Link href="https://github.com/MikeLegemah5799" target="_blank" className="py-0.5 px-2">
                             <FontAwesomeIcon
                                 icon={faGithub}
@@ -84,7 +84,7 @@ const MainNav = () => {
                             />
                         </Link>
                     </li>
-                    <li className="inline-flex">
+                    <li className="inline-flex px-3">
                         <Link href="https://www.linkedin.com/in/michaellegemah/" target="_blank" className="py-0.5 px-2 inline-flex">
                             <FontAwesomeIcon
                                 icon={faLinkedinIn}
@@ -92,7 +92,7 @@ const MainNav = () => {
                             />
                         </Link>
                     </li>
-                    <li className="inline-flex">
+                    <li className="inline-flex px-3">
                         <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2 inline-flex">
                             <FontAwesomeIcon
                                 icon={faTwitter}
@@ -100,7 +100,7 @@ const MainNav = () => {
                             />
                         </Link>
                     </li>
-                    <li className="h-6 inline-flex">
+                    <li className="h-6 inline-flex px-3">
                         <button
                             aria-label="Toggle Dark Mode"
                             type="button"
@@ -136,7 +136,7 @@ const MainNav = () => {
                     </li>
                 </ul>
             )}
-                {/* Desktop menu */}
+            {/* Desktop menu */}
                 <ul className="hidden w-full mt-4 py-10 lg:py-0 lg:mt-0 lg:w-auto lg:flex text-center lg:text-start bg-white dark:bg-dark-gray">
                     <li className="py-1 lg:py-0">
                         <Link
