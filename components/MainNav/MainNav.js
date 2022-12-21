@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
-import Link from "next/link";
-import { useTheme } from "next-themes";
-import { useRouter } from "next/router";
-import Image from "next/image";
-import Logo from "../../public/static/logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from 'next/link';
+import { useTheme } from 'next-themes';
+import { useRouter } from 'next/router';
+import Image from 'next/image';
+import Logo from '../../public/static/logo.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faLinkedinIn,
     faGithub,
     faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
+} from '@fortawesome/free-brands-svg-icons';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const MainNav = () => {
@@ -26,7 +26,7 @@ const MainNav = () => {
         <nav
             role="navigation"
             aria-label="Main navigation"
-            className="dark:bg-dark-gray flex flex-wrap items-center justify-between p-3"
+            className="dark:bg-dark-gray flex flex-wrap items-center justify-between p-3 lg:h-16"
         >
             <Link href="/" className="flex items-center">
                 <Image
@@ -85,7 +85,7 @@ const MainNav = () => {
                         </Link>
                     </li>
                     <li className="inline-flex px-3">
-                        <Link href="https://www.linkedin.com/in/michaellegemah/" target="_blank" className="py-0.5 px-2 inline-flex">
+                        <Link href="https://www.linkedin.com/in/michaellegemah/" target="_blank" className="py-0.5 px-2">
                             <FontAwesomeIcon
                                 icon={faLinkedinIn}
                                 style={{ fontSize: 18 }}
@@ -93,7 +93,7 @@ const MainNav = () => {
                         </Link>
                     </li>
                     <li className="inline-flex px-3">
-                        <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2 inline-flex">
+                        <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2">
                             <FontAwesomeIcon
                                 icon={faTwitter}
                                 style={{ fontSize: 18 }}
@@ -165,7 +165,7 @@ const MainNav = () => {
                         </Link>
                     </li>
                     {/* Soocial Icons */}
-                    <li className="py-1 lg:py-0 inline-flex">
+                    <li className="py-1 lg:py-0">
                         <Link href="https://github.com/MikeLegemah5799" target="_blank" className="py-0.5 px-2">
                             <FontAwesomeIcon
                                 icon={faGithub}
@@ -173,23 +173,23 @@ const MainNav = () => {
                             />
                         </Link>
                     </li>
-                    <li className="inline-flex">
-                        <Link href="https://www.linkedin.com/in/michaellegemah/" target="_blank" className="py-0.5 px-2 inline-flex">
+                    <li>
+                        <Link href="https://www.linkedin.com/in/michaellegemah/" target="_blank" className="py-0.5 px-2">
                             <FontAwesomeIcon
                                 icon={faLinkedinIn}
                                 style={{ fontSize: 18 }}
                             />
                         </Link>
                     </li>
-                    <li className="inline-flex">
-                        <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2 inline-flex">
+                    <li>
+                        <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2">
                             <FontAwesomeIcon
                                 icon={faTwitter}
                                 style={{ fontSize: 18 }}
                             />
                         </Link>
                     </li>
-                    <li className="h-6 inline-flex">
+                    <li className="h-6">
                         <button
                             aria-label="Toggle Dark Mode"
                             type="button"
