@@ -20,10 +20,12 @@
     "flowbite-react": "^0.3.7",
     "framer-motion": "^7.6.12",
     "next": "13.0.5",
+    "next-seo": "^5.15.0",
     "next-themes": "^0.2.1",
     "prop-types": "^15.8.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "typed.js": "^2.0.12"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
