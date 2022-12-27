@@ -29,7 +29,7 @@ const Hero = () => {
             <div className="flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
 		        <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
 			        <h1 className="text-5xl leading-none sm:text-6xl sm:h-24 md:h-12 text-blue mb-3" ref={el}></h1>
-			        <p className="mt-3 mb-8 text-lg sm:mb-12 text-left">Combining compelling UI's with flexible, scalable backends to create unique full stack experiences.</p>
+			        <p className="mt-3 mb-8 text-lg sm:mb-12 text-left">Combining compelling UI&#39;s with flexible, scalable backends to create unique full stack experiences.</p>
 			        <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                         <button
                             type="button"
