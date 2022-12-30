@@ -11,12 +11,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider defaultTheme="light" attribute="class">
       <DefaultSeo
-        titleTemplate ="%s | Mike Legemah"
+        titleTemplate ="%s | Michael Legemah"
         openGraph={{
           type: 'website',
           locale: 'en_US',
           url: 'https://www.mleg.tech/',
-          description: 'Michael Legemah personal website and portfolio',
+          description: 'Michael Legemah Front End Developer/Software Engineer',
           keywords: 'portfolio, javascript, react, wordpress, developer, software engineer, front end developer, php, nodejs, python, tech lead, solutions architect, aws, front end engineer, shopify'
         }}
         twitter={{
