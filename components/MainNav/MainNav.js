@@ -43,7 +43,7 @@ const MainNav = () => {
                 <button onClick={() => setToggle(!toggle)}>
                     <FontAwesomeIcon
                         icon={faBars}
-                        style={{ fontSize: 18, color: "#017AFF" }}
+                        style={{ fontSize: 18, color: "#7A28CB" }}
                     />
                 </button>
             </div>
