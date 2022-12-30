@@ -13,7 +13,11 @@ module.exports = {
       'gray-dark': '#39393A',
       'gray-light': '#E6E6E6',
     },
-    extend: {},
+    extend: {
+      height: {
+        '120': '37.5rem'
+      }
+    },
   },
   plugins: [],
 }
