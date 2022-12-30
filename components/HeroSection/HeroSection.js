@@ -52,7 +52,7 @@ const Hero = () => {
 		        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0">
                     <Image src={MikeAI}
                         alt="Mike in AI"
-                        className="object-contain h-auto lg:h-auto xl:h-auto 2xl:h-128"
+                        className="object-contain h-auto lg:h-120"
                     />
 		        </div>
 	        </div>
