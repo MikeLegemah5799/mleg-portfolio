@@ -35,7 +35,7 @@ const MainNav = () => {
                     width={40}
                     height={40}
                 />
-                <span className="self-center whitespace-nowrap ml-3 text-xl font-semibold text-black">
+                <span className="self-center whitespace-nowrap ml-3 text-xl font-semibold text-black dark:text-white">
                     Michael Legemah
                 </span>
             </Link>
@@ -48,7 +48,7 @@ const MainNav = () => {
                 </button>
             </div>
             {toggle && (
-                <ul className="toggle w-full mt-4 py-10 lg:py-0 lg:mt-0 lg:w-auto lg:flex text-center lg:text-start bg-white dark:bg-dark-gray">
+                <ul className="toggle w-full mt-4 py-10 lg:py-0 lg:mt-0 lg:w-auto lg:flex text-center lg:text-start dark:bg-dark-gray">
                     <li className="py-3">
                         <Link
                             href="/" className={`pl-3 pr-4 text-base hover:text-purple hover:font-semibold ${router.asPath === "/" ? "font-semibold text-purple" : "font-medium" }`}>
@@ -137,7 +137,7 @@ const MainNav = () => {
                 </ul>
             )}
             {/* Desktop menu */}
-                <ul className="hidden w-full mt-4 py-10 lg:py-0 lg:mt-0 lg:w-auto lg:flex text-center lg:text-start bg-white dark:bg-dark-gray">
+                <ul className="hidden w-full mt-4 py-10 lg:py-0 lg:mt-0 lg:w-auto lg:flex text-center lg:text-start dark:bg-dark-gray">
                     <li className="py-1 lg:py-0">
                         <Link
                             href="/" className={`pl-3 pr-4 text-base hover:text-purple hover:font-semibold ${router.asPath === "/" ? "font-semibold text-purple" : "font-medium" }`}>

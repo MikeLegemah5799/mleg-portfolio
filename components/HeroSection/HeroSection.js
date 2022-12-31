@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 import Link from 'next/link';
 import Image from 'next/image';
-import MikeMemoji from '../../public/static/mikeMemoji.png';
 import MikeAI from '../../public/static/mikeAI.png';
 
 
@@ -50,7 +49,8 @@ const Hero = () => {
 			        </div>
 		        </div>
 		        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0">
-                    <Image src={MikeAI}
+                    <Image
+                        src={MikeAI}
                         alt="Mike in AI"
                         className="object-contain h-auto lg:h-120"
                     />
