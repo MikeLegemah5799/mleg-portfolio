@@ -43,11 +43,9 @@ const RecentProjects = () => {
                                             {r.hasLink}
                                         </button>
                                     </Link>
-                                    <Link href={r.link} target="_blank">
+                                    <Link href={r.code} target="_blank">
                                         <button
                                             type="button"
-                                            href={r.code}
-                                            target="_blank"
                                             className="w-full px-8 py-3 text-lg font-semibold border-purple rounded bg-purple text-green dark:bg-green dark:text-purple hover:shadow-lg disabled:bg-gray-dark disabled:text-gray-light dark:disabled:bg-gray-dark dark:disabled:text-gray-light"
                                             disabled={r.codeDisabled}
                                         >
@@ -58,6 +56,11 @@ const RecentProjects = () => {
                             </div>
                         );
                     })}
+                </div>
+                <div className="m-auto text-center">
+                    <Link href="/projects">
+                        <button type="button" className="bg-green text-purple text-lg font-semibold px-8 py-3 rounded ">View All Projects</button>
+                    </Link>
                 </div>
             </div>
         </section>
