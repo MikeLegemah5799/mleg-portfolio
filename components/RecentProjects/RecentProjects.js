@@ -13,7 +13,7 @@ const RecentProjects = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
                     {recents.map((r, index) => {
                         return (
-                            <div className="max-w-xs rounded-md shadow-md bg-white dark:bg-black mx-auto mb-6 xl:mx-0" key={index}>
+                            <div className="max-w-xs rounded-md shadow-md bg-white dark:bg-black mx-auto mb-6" key={index}>
                                 <Image
                                     src={r.image}
                                     alt={r.alt}
@@ -57,9 +57,9 @@ const RecentProjects = () => {
                         );
                     })}
                 </div>
-                <div className="m-auto text-center">
+                <div className="m-auto text-center p-6 lg:p-0">
                     <Link href="/projects">
-                        <button type="button" className="bg-green text-purple text-lg font-semibold px-8 py-3 rounded ">View All Projects</button>
+                        <button type="button" className="bg-green text-purple text-lg font-semibold px-8 py-3 rounded hover:shadow-lg w-full md:w-fit">View All Projects</button>
                     </Link>
                 </div>
             </div>

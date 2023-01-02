@@ -43,7 +43,7 @@ export const recents = [
         description: 'Experimented with creating a crypto dashboard that visualizes historical and current data.',
         image: '/static/cryptodash.gif',
         alt: 'Cryptocurrency Dashboard',
-        tech: ['React', 'HighChartsJS', 'Styled Components', 'SASS', 'CryptoCompare API, Fuzzy Search'],
+        tech: ['React', 'HighChartsJS', 'Styled Components', 'SASS', 'CryptoCompare API', 'Fuzzy Search'],
         code: 'https://github.com/MikeLegemah5799/cryptocurrency-dashboard',
         hasCode: 'View Code',
         codeDisabled: false,
