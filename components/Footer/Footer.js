@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
     return (
-        <footer className="columns-2xs flex flex-wrap items-center justify-between p-3" aria-label="Footer">
+        <footer className="columns-2xs flex flex-wrap items-center justify-between p-6" aria-label="Footer">
             <p className="text-sm">&copy; {new Date().getFullYear()} Designed, developed, and maintained by Michael Legemah</p>
             <ul className="inline-flex">
                 <li>
