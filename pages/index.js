@@ -1,12 +1,13 @@
 import Hero from '../components/HeroSection/HeroSection';
 import LogoCloud from '../components/LogoCloud/LogoCloud';
-import styles from '../styles/Home.module.css';
+import RecentProjects from '../components/RecentProjects/RecentProjects';
 
 export default function Home() {
   return (
-    <div className="container mx-auto grow">
+    <div className="grow">
       <Hero />
       <LogoCloud />
+      <RecentProjects />
     </div>
-  )
-}
+  );
+};
