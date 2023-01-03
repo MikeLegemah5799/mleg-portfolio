@@ -29,7 +29,7 @@ const RecentProjects = () => {
                                         <ul className="flex list-none p-0 flex-wrap">
                                             {r.tech.map((t, index) => {
                                                 return (
-                                                    <li key={index} className="text-sm pr-2.5">{t}</li>
+                                                    <li key={index} className="text-sm p-1.5 bg-blue mr-1 mb-1 text-white font-semibold">{t}</li>
                                                 );
                                             })}
                                         </ul>
