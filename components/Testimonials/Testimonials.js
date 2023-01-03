@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import { clients } from './clients';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
@@ -48,7 +50,12 @@ const Testimonials = () => {
                                             <p className="mt-1 text-black">{c.title}</p>
                                         </div>
                                     </div>
-                                    <p className="relative mt-4 text-gray-dark">
+                                        <FontAwesomeIcon
+                                            icon={faQuoteLeft}
+                                        style={{ fontSize: 26, color: "#017AFF" }}
+                                        className="mt-4"
+                                        />
+                                    <p className="relative text-gray-dark">
                                         {c.review}
                                     </p>
                                 </blockquote>
