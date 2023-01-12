@@ -17,8 +17,16 @@ module.exports = {
     },
     extend: {
       height: {
-        '120': '37.5rem'
-      }
+        '65': '17rem',
+        '99': '27rem',
+        '102': '32rem',
+        '120': '37.5rem',
+        '124': '42rem',
+        '134': '52rem'
+      },
+      backgroundImage: {
+        'about': "url('/static/aboutCollage.png')",
+      },
     },
   },
   plugins: [],
