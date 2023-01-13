@@ -32,20 +32,22 @@ const Hero = () => {
 			        <h1 className="text-4xl h-9 leading-none whitespace-nowrap sm:text-6xl md:h-14 xl:text-8xl xl:h-24 text-left text-purple dark:text-blue mb-3" ref={el}></h1>
 			        <p className="mt-3 mb-8 text-lg sm:mb-12 text-left"> I Combine compelling UI&#39;s with flexible, scalable backends to create unique full stack experiences.</p>
 			        <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 md:justify-start lg:justify-start">
-                        <button
-                            type="button"
-                            href="#"
-                            className="px-8 py-3 text-lg font-semibold border-purple rounded bg-purple text-green dark:bg-green dark:text-purple hover:shadow-lg"
-                        >
-                            Projects
-                        </button>
-                        <button
-                            type="button"
-                            href="#"
-                            className="px-8 py-3 text-lg text-purple font-semibold border rounded dark:border-green dark:text-green hover:shadow-lg"
-                        >
+                        <Link href="/projects">
+                            <button
+                                type="button"
+                                className="px-8 py-3 w-full lg:w-36 h-14 text-lg font-semibold border-purple rounded bg-purple text-green dark:bg-green dark:text-purple hover:shadow-lg"
+                            >
+                                Projects
+                            </button>
+                        </Link>
+                        <Link href="/about">
+                            <button
+                                type="button"
+                                className="px-8 py-3 w-full lg:w-36 h-14 text-lg text-purple font-semibold border rounded dark:border-green dark:text-green hover:shadow-lg"
+                            >
                             About
                         </button>
+                        </Link>
 			        </div>
 		        </div>
 		        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0">
