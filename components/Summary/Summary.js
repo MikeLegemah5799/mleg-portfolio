@@ -6,8 +6,8 @@ const Summary = () => {
     return (
         <section className="mx-auto container py-24 px-6">
             <div className="flex flex-col">
-                <div class="h-1 bg-gray-light rounded overflow-hidden">
-                    <div class="w-24 h-full bg-purple dark:bg-blue"></div>
+                <div className="h-1 bg-gray-light rounded overflow-hidden">
+                    <div className="w-24 h-full bg-purple dark:bg-blue"></div>
                 </div>
                 <div className="text-center py-6 mb-2">
                     <h1 className="text-3xl font-bold md:text-4xl lg:text-6xl text-purple dark:text-blue mb-6">So Who Is Michael Legemah?</h1>
@@ -22,7 +22,7 @@ const Summary = () => {
                             style={{ fontSize: 24, color: "#7A28CB" }}
                             className="w-6 h-6 flex-shrink-0 mr-4"
                         />
-                        <span class="title-font font-medium">Web Development & Web Applications</span>
+                        <span className="title-font font-medium text-gray-dark">Web Development & Web Applications</span>
                     </div>
                 </div>
                 <div className="p-2 sm:w-1/2 w-full">
@@ -32,7 +32,7 @@ const Summary = () => {
                             style={{ fontSize: 24, color: "#7A28CB" }}
                             className="w-6 h-6 flex-shrink-0 mr-4"
                         />
-                        <span class="title-font font-medium">Content Strategy & Content Management</span>
+                        <span className="title-font font-medium text-gray-dark">Content Strategy & Content Management</span>
                     </div>
                 </div>
                 <div className="p-2 sm:w-1/2 w-full">
@@ -42,7 +42,7 @@ const Summary = () => {
                             style={{ fontSize: 24, color: "#7A28CB" }}
                             className="w-6 h-6 flex-shrink-0 mr-4"
                         />
-                        <span class="title-font font-medium">Accessibility</span>
+                        <span className="title-font font-medium text-gray-dark">Accessibility</span>
                     </div>
                 </div>
                 <div className="p-2 sm:w-1/2 w-full">
@@ -52,7 +52,7 @@ const Summary = () => {
                             style={{ fontSize: 24, color: "#7A28CB" }}
                             className="w-6 h-6 flex-shrink-0 mr-4"
                         />
-                        <span class="title-font font-medium">Cyber Security</span>
+                        <span className="title-font font-medium text-gray-dark">Cyber Security</span>
                     </div>
                 </div>
                 <div className="p-2 sm:w-1/2 w-full">
@@ -62,7 +62,7 @@ const Summary = () => {
                             style={{ fontSize: 24, color: "#7A28CB" }}
                             className="w-6 h-6 flex-shrink-0 mr-4"
                         />
-                        <span class="title-font font-medium">User Experience</span>
+                        <span className="title-font font-medium text-gray-dark">User Experience</span>
                     </div>
                 </div>
                 <div className="p-2 sm:w-1/2 w-full">
@@ -72,7 +72,7 @@ const Summary = () => {
                             style={{ fontSize: 24, color: "#7A28CB" }}
                             className="w-6 h-6 flex-shrink-0 mr-4"
                         />
-                        <span class="title-font font-medium">Mentorship</span>
+                        <span className="title-font font-medium text-gray-dark">Mentorship</span>
                     </div>
                 </div>
             </div>
