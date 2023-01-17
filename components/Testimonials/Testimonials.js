@@ -52,8 +52,8 @@ const Testimonials = () => {
                                     </div>
                                         <FontAwesomeIcon
                                             icon={faQuoteLeft}
-                                        style={{ fontSize: 26, color: "#017AFF" }}
-                                        className="mt-4"
+                                            style={{ fontSize: 26, color: "#017AFF" }}
+                                            className="mt-4"
                                         />
                                     <p className="relative text-gray-dark">
                                         {c.review}
