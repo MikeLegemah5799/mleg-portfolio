@@ -12,7 +12,7 @@ const LogoCloud = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
                     {brands.map((b, index) => {
                         return (
-                            <div className="p-4" key={index}>
+                            <div className="p-4 mx-auto" key={index}>
                                 <Image
                                     src={b.image}
                                     className="object-contain h-20"
