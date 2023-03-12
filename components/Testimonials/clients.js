@@ -39,7 +39,7 @@ export const clients = [
         alt: 'Scott Kogos Headshot',
         name: 'Scott Kogos',
         title: 'SVP, Director of Project Management Operations, Doner',
-        review: 'Mike is a consummate professional. He came on board with us for several months, picked up a very difficult AEM CMS interface very rapidly. He was a joy to work with, skilled, extremely responsive, proactive, friendly, supportive and solution oriented. From a project management perspective an absolute joy to have on the team. I miss working with him!'
+        review: 'Mike joined our small team during an incredibly hectic and technically challenging launch. He fit right in and proved himself to be a huge help to the team. Both for the work assigned to him and helping out the other developers when called upon. He\'s also a great person to be around, easy going and very friendly.'
     },
     {
         image: '/static/alla.jpeg',
