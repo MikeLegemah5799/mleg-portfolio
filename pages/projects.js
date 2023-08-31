@@ -1,4 +1,6 @@
 import { NextSeo } from 'next-seo';
+import AllProjects from '../components/AllProjects/AllProjects';
+import TextHeader from '../components/TextHeader/TextHeader';
 
 const Projects = () => {
     return (
@@ -10,6 +12,10 @@ const Projects = () => {
                     description: 'A curated list of all my projects I&spos;ve done over the years.'
                 }}
             />
+            <TextHeader
+                title="A Collection Of Projects I&apos;m Proud Of"
+            />
+            <AllProjects />
         </div>
     );
 };
