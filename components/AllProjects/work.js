@@ -103,4 +103,56 @@ export const work = [
         hasLink: 'View Site',
         linkDisabled: false
     },
+    {
+        title: 'Mayo Clinic',
+        description: 'I worked with a team to build UI components using Angular and Vue. Created pattern library using Storybook.',
+        image: '/static/mayoClinic.gif',
+        alt: 'Mayo Clinic website',
+        tech: ['Angular', 'Vue', 'Javascript', 'SASS', 'Storybook'],
+        code: '',
+        hasCode: 'Code is Private',
+        codeDisabled: true,
+        link: 'https://www.mayoclinic.org/',
+        hasLink: 'View Site',
+        linkDisabled: false
+    },
+    {
+        title: 'The Shadow League',
+        description: 'I worked with the CEO on building the site, redesigning the site,ad campaigns, and deployments in AWS. Worked on the CMS in the WordPress.',
+        image: '/static/shadowLeague.gif',
+        alt: 'The Shadow League website',
+        tech: ['WordPress', 'HTML', 'PHP', 'MySQL', 'JavaScript', 'AWS'],
+        code: '',
+        hasCode: 'Code is Private',
+        codeDisabled: true,
+        link: 'https://theshadowleague.com/',
+        hasLink: 'View Site',
+        linkDisabled: false
+    },
+    {
+        title: 'JP Morgan Chase & Co.',
+        description: 'I worked with a team to build and update UI components using ES6 Javascript and SASS. Leveraged Adobe Experience Manager(AEM) as a CMS.',
+        image: '/static/jpmc.gif',
+        alt: 'JP Morgan Chase website',
+        tech: ['AEM', 'Javascript', 'SASS'],
+        code: '',
+        hasCode: 'Code is Private',
+        codeDisabled: true,
+        link: 'https://www.jpmorganchase.com/',
+        hasLink: 'View Site',
+        linkDisabled: false
+    },
+    {
+        title: 'Juvenile Diabetes Research Foundation',
+        description: 'Worked with a team that was tasked with creating the website in WordPress CMS.',
+        image: '/static/jdrf.gif',
+        alt: 'Juvenile Diabetes Research Foundation website',
+        tech: ['WordPress', 'PHP', 'jQuery', 'Bootstrap', 'MySQL'],
+        code: '',
+        hasCode: 'Code is Private',
+        codeDisabled: true,
+        link: 'https://www.jdrf.org/',
+        hasLink: 'View Site',
+        linkDisabled: false
+    }
 ];
