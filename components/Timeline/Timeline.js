@@ -113,7 +113,7 @@ const Timeline = () => {
                     <div className="p-4 flex flex-col justify-between leading-normal">
                         <div className="mb-8">
                             <h3 className="text-2xl flex items-center text-gray-light">
-                                Early 2000s&apos;s - Now - Programming on the Internet:
+                                Early 2000s&apos;s - 2010 - Programming on the Internet:
                             </h3>
                             <p className="text-base text-white">
                                 My insatiable curiosity led me to dive into the realm of web development. Armed with a thirst for knowledge and a stack of programming books, I embarked on a journey of self-teaching that would reshape my understanding of technology. HTML, the backbone of the web, became my starting point. With the flicker of excitement, I wrote my first lines of code, crafting basic web pages that, although simple, felt like digital worlds I had the power to shape. CSS soon followed, adding an artistic layer to my coding endeavors. The process of styling elements, experimenting with colors, fonts, and layouts, was akin to painting on a blank canvas. JavaScript emerged as the bridge to interactivity and dynamic content. Armed with tutorials and examples, I ventured into the world of scripting. From simple pop-up alerts to more complex functions that responded to user interactions, JavaScript&apos;s potential felt limitless. Looking back, my path from Logo to HTML, CSS, JavaScript, and SQL was marked by a consistent thread of self-driven learning, trial and error, and an insatiable appetite for exploration. 
