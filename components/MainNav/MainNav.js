@@ -66,6 +66,11 @@ const MainNav = () => {
                         </Link>
                     </li>
                     <li className="py-3">
+                        <Link href="https://techroyalty.net/" target="_blank" className={`pl-3 pr-4 text-base hover:text-purple hover:font-semibold ${router.asPath === "https://techroyalty.net/" ? "font-semibold text-purple" : "font-medium" }`}>
+                            Podcast
+                        </Link>
+                    </li>
+                    <li className="py-3">
                         <Link href="/contact" className={`pl-3 pr-4 text-base hover:text-purple hover:font-semibold ${router.asPath === "/contact" ? "font-semibold text-purple" : "font-medium" }`}>
                             Contact
                         </Link>
@@ -147,6 +152,11 @@ const MainNav = () => {
                     <li className="py-1 lg:py-0">
                         <Link href="/projects" className={`pl-3 pr-4 text-base hover:text-purple hover:font-semibold ${router.asPath === "/projects" ? "font-semibold text-purple" : "font-medium" }`}>
                             Projects
+                        </Link>
+                    </li>
+                    <li className="py-1 lg:py-0">
+                        <Link href="https://techroyalty.net/" target="_blank" className={`pl-3 pr-4 text-base hover:text-purple hover:font-semibold ${router.asPath === "https://techroyalty.net/" ? "font-semibold text-purple" : "font-medium" }`}>
+                            Podcast
                         </Link>
                     </li>
                     <li className="py-1 lg:py-0">
