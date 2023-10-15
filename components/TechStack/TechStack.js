@@ -20,8 +20,8 @@ const TechStack = () => {
                         </div>
                         <div className="flex-grow">
                             <h3 className="text-white text-2xl title-font font-medium mb-3">Front End</h3>
-                            <p className="leading-relaxed text-left text-white"><span className="font-semibold">Languages:</span> JavaScript, TypeScript, HTML, CSS, GraphQL</p>
-                            <p className="leading-relaxed text-left text-white"><span className="font-semibold">Frameworks:</span> Angular, Vue, NextJS, TensorFlowJS</p>
+                            <p className="leading-relaxed text-left text-white"><span className="font-semibold">Languages:</span> JavaScript, TypeScript, HTML, CSS</p>
+                            <p className="leading-relaxed text-left text-white"><span className="font-semibold">Frameworks:</span> Angular, Vue, NextJS, TensorFlowJS, Svelte</p>
                             <p className="leading-relaxed text-left text-white"><span className="font-semibold">Libraries:</span> React, JQuery, Framer, GSAP, HighCharts, Bootstrap, Foundation, TailWindCSS</p>
                             <p className="leading-relaxed text-left text-white"><span className="font-semibold">Mobile:</span> React Native, Progessive Web Apps(PWA)</p>
                             <p className="leading-relaxed text-left text-white"><span className="font-semibold">Templating:</span> Liquid, Handlebars, Twig</p>
@@ -37,9 +37,10 @@ const TechStack = () => {
                         </div>
                         <div className="flex-grow">
                             <h3 className="text-white text-2xl title-font font-medium mb-3">Back End</h3>
-                            <p className="leading-relaxed text-left text-white"><span className="font-semibold">Languages:</span> PHP, Python, Lua, Solidity</p>
-                            <p className="leading-relaxed text-left text-white"><span className="font-semibold">Frameworks:</span> Laravel, DJango, Flask, Express, Solana, Palantir Warpcore, REST API, FastAPI</p>
+                            <p className="leading-relaxed text-left text-white"><span className="font-semibold">Languages:</span> PHP, Python, Lua, Solidity, C#</p>
+                            <p className="leading-relaxed text-left text-white"><span className="font-semibold">Frameworks:</span> Laravel, DJango, Flask, Express, Solana, Palantir Warpcore, FastAPI, .NET</p>
                             <p className="leading-relaxed text-left text-white"><span className="font-semibold">Run Time:</span> Node, Deno</p>
+                            <p className="leading-relaxed text-left text-white"><span className="font-semibold">API:</span> GraphQL, REST</p>
                             <p className="leading-relaxed text-left text-white"><span className="font-semibold">Databases:</span> MySQL, PostgreSQL, MariaDB, AuroraDB, Redis, MongoDB, FireStore</p>
                         </div>
                     </div>
