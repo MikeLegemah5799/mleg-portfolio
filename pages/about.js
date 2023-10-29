@@ -8,6 +8,7 @@ const About = () => {
     return (
         <div className="grow">
             <NextSeo
+                title="About | Michael Legemah"
                 openGraph={{
                     title: 'So Who Is Michael Legemah?',
                     url: 'https://www.mleg.tech/about',

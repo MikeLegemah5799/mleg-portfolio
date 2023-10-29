@@ -6,6 +6,7 @@ const Projects = () => {
     return (
         <div className="grow">
             <NextSeo
+                title="Projects | Michael Legemah"
                 openGraph={{
                     title: 'Carefully Curated Projects',
                     url: 'https://www.mleg.tech/projects',
