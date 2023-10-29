@@ -6,6 +6,7 @@ const Contact = () => {
     return (
         <div className="grow">
             <NextSeo
+                title="Contact | Michael Legemah"
                 openGraph={{
                     title: 'Get In Touch With Me',
                     url: 'https://www.mleg.tech/contact',

@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider defaultTheme="light" attribute="class">
       <DefaultSeo
-        titleTemplate ="%s | Michael Legemah"
+        title ="Home | Michael Legemah"
         openGraph={{
           type: 'website',
           locale: 'en_US',
