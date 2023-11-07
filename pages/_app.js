@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
           locale: 'en_US',
           url: 'https://www.mleg.tech/',
           description: 'Michael Legemah Front End Developer/Software Engineer',
-          keywords: 'portfolio, javascript, react, wordpress, developer, software engineer, front end developer, php, nodejs, python, tech lead, solutions architect, aws, front end engineer, shopify'
+          keywords: 'portfolio, javascript, react, wordpress, developer, software engineer, front end developer, php, nodejs, python, tech lead, solutions architect, aws, front end engineer, shopify, full stack engineer'
         }}
         twitter={{
           handle: '@MikeLegemah',
