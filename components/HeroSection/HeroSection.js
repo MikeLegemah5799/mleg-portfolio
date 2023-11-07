@@ -11,7 +11,7 @@ const Hero = () => {
 
     useEffect(() => {
         const typed = new Typed(el.current, {
-            strings: ['Front End Developer.', 'Software Engineer.', 'Retro Gamer.', 'BBQ Expert.', 'Solutions Architect.', 'Problem Solver.'],
+            strings: ['Full Stack Developer.', 'Software Engineer.', 'Retro Gamer.', 'BBQ Expert.', 'Solutions Architect.', 'Problem Solver.'],
             startDelay: 1000,
             typeSpeed: 60,
             backSpeed: 0,
