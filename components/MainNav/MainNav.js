@@ -164,7 +164,7 @@ const MainNav = () => {
                             Podcast
                         </Link>
                     </li>
-                    <li className="py-3">
+                    <li className="py-1 lg:py-0">
                         <Link href="https://mleg.blog/" target="_blank" className={`pl-3 pr-4 text-base hover:text-purple hover:font-semibold ${router.asPath === "https://techroyalty.net/" ? "font-semibold text-purple" : "font-medium" }`}>
                             Blog
                         </Link>
