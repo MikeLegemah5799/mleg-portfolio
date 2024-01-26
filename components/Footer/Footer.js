@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faLinkedinIn,
     faGithub,
-    faTwitter,
+    faXTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -32,7 +32,7 @@ const Footer = () => {
                 <li>
                     <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2">
                         <FontAwesomeIcon
-                            icon={faTwitter}
+                            icon={faXTwitter}
                             style={{ fontSize: 18 }}
                         />
                     </Link>
