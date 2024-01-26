@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faLinkedinIn,
     faGithub,
-    faTwitter,
+    faXTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -100,7 +100,7 @@ const MainNav = () => {
                     <li className="inline-flex px-3">
                         <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2">
                             <FontAwesomeIcon
-                                icon={faTwitter}
+                                icon={faXTwitter}
                                 style={{ fontSize: 18 }}
                             />
                         </Link>
@@ -194,7 +194,7 @@ const MainNav = () => {
                     <li>
                         <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2">
                             <FontAwesomeIcon
-                                icon={faTwitter}
+                                icon={faXTwitter}
                                 style={{ fontSize: 18 }}
                             />
                         </Link>
