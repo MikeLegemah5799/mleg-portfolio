@@ -30,7 +30,7 @@ const Footer = () => {
                     </Link>
                 </li>
                 <li>
-                    <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2">
+                    <Link href="https://x.com/TechFishBbq" target="_blank" className="py-0.5 px-2">
                         <FontAwesomeIcon
                             icon={faXTwitter}
                             style={{ fontSize: 18 }}
