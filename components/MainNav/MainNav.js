@@ -88,7 +88,7 @@ const MainNav = () => {
                         </Link>
                     </li>
                     <li className="inline-flex px-3">
-                        <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2">
+                        <Link href="https://x.com/TechFishBbq" target="_blank" className="py-0.5 px-2">
                             <FontAwesomeIcon
                                 icon={faXTwitter}
                                 style={{ fontSize: 18 }}
@@ -172,7 +172,7 @@ const MainNav = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href="https://twitter.com/MikeLegemah" target="_blank" className="py-0.5 px-2">
+                        <Link href="https://x.com/TechFishBbq" target="_blank" className="py-0.5 px-2">
                             <FontAwesomeIcon
                                 icon={faXTwitter}
                                 style={{ fontSize: 18 }}
